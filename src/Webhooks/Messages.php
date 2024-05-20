@@ -23,6 +23,7 @@ class Messages{
                 }
             }
         }
+        return false;
     }
     public static function getUserInfo($recipientId){
         return Application::GetRequest(null,['fields'=>'name'],$recipientId);
