@@ -1,0 +1,11 @@
+{
+    "name": "x64off/facebook-api",
+    "description": "A simple example facebook api",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "x64off\\FacebookApi\\": "src/"
+        }
+    },
+    "require": {}
+}
