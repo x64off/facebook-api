@@ -66,7 +66,6 @@ class Application
         if (!empty($params)) {
             $url .= '&' . http_build_query($params);
         }
-        Application::log(null,$url);
         $ch = curl_init($url);
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
         curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
